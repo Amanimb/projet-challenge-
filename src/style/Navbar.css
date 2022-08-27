@@ -21,8 +21,9 @@
 .navbar img {
   position: absolute;
   left: calc((100vw - 100px) / 2);
-  width: 100px;
+  width: 140px;
   justify-content: center;
+  
 }
 .navbar ul {
   justify-content: flex-start;
@@ -66,4 +67,7 @@ body {
 }
 h4 a:hover {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+#black{
+  background-color: #1E1E1E;
 }

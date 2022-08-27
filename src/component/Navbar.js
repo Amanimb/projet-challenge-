@@ -5,22 +5,24 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <div className="navbar">
-      <ul>
-        <Link to="/">
-          <li>Acceuil</li>
+    <div id='black'>
+      <div className="navbar">
+        <ul>
+          <Link to="/">
+            <li>Acceuil</li>
+          </Link>
+          <Link to="/About">
+            <li>À propos</li>
+          </Link>
+          <Link to="/Categories">
+            <li>Magasin</li>
+          </Link>
+        </ul>
+        <img src="/benzide_BPS.png" alt="logo" />
+        <Link to="/Contact">
+          <h4 className="cc">Contact</h4>
         </Link>
-        <Link to="/About">
-          <li>À propos</li>
-        </Link>
-        <Link to="/Categories">
-          <li>Magasin</li>
-        </Link>
-      </ul>
-      <img src="/benzide_BPS.png" alt="logo" />
-      <Link to="/Contact">
-        <h4 className="cc">Contact</h4>
-      </Link>
+      </div>
     </div>
   );
 }

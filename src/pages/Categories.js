@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import List_categories from '../component/List_categories';
+import '../style/Categorie_card.css'
+import '../style/list.css'
 
 function Categories() {
     const [Categories, setCategories] = useState([
@@ -46,10 +48,13 @@ function Categories() {
     ]);
   return (
     <div>
-        <h1>Les catégories</h1>
-        <List_categories categories={Categories}/>
+      <div>
+  <img src='../trax.jpg' id='im_trax'/>
+        <h1>Nos produits</h1>
+      </div>
+      <List_categories categories={Categories} />
     </div>
-  )
+  );
 }
 
 export default Categories

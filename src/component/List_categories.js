@@ -1,6 +1,5 @@
 import React from 'react'
 import Categorie_card from './Categorie_card'
-import "../style/list.css"
 
 function List_categories({categories}) {
   return (

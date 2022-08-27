@@ -21,3 +21,8 @@ margin-bottom :15px;
   border-bottom: 1px solid #dedede;
   
 }
+#im_trax{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
