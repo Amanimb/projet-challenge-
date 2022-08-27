@@ -5,7 +5,7 @@ function About() {
   return (
     <div>
       <div className="about">
-        <h1>Benzid Pieces Auto</h1>
+        <h1>Benzid Pieces et Services</h1>
         <div className="contenu">
           <div className="texte">
             <p>

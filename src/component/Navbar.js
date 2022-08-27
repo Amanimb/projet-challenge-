@@ -19,7 +19,7 @@ function Navbar() {
       </ul>
       <img src="/benzide_BPS.png" alt="logo" />
       <Link to="/Contact">
-        <h4>Contact</h4>
+        <h4 className="cc">Contact</h4>
       </Link>
     </div>
   );

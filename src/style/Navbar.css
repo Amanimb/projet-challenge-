@@ -46,14 +46,17 @@ ul a:hover {
   border-radius: 30% 5%;
 }
 
-h4 {
+.cc {
   justify-content: flex-end;
   display: flex;
   background-color: #483d;
   color: aliceblue;
   border-radius: 20px;
   padding: 5px;
-  width: 70px;
+  width: 75px;
+  padding-right: 8px;
+  
+
 }
 
 
