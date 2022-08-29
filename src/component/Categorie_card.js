@@ -1,14 +1,17 @@
-import React from 'react'
-import "../style/Categorie_card.css"
+import React from "react";
+import { Link } from "react-router-dom";
+import "../style/Categorie_card.css";
 
-
-function Categorie_card({categorie}) {
+function Categorie_card({ categorie }) {
   return (
-    <div className='card'>
-        <img src={categorie.image} className='im'/>
-        <h3>{categorie.name}</h3>
-    </div>
-  )
+    <Link to={`/Categories/${categorie.name}`} className='lii'>
+      <div className="card">
+        <img src={categorie.image} className="im" />
+        <h3>{categorie.name}</h3>{" "}
+        
+      </div>
+    </Link>
+  );
 }
 
-export default Categorie_card
+export default Categorie_card;

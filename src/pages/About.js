@@ -1,9 +1,15 @@
 import React from 'react'
+import Trax from '../component/Trax';
 import '../style/About.css'
+import "../style/Categorie_card.css";
+import "../style/list.css";
+
 
 function About() {
   return (
-    <div>
+    <div className="nos-p">
+      <Trax title="À  propos" />
+
       <div className="about">
         <h1>Benzid Pieces et Services</h1>
         <div className="contenu">
@@ -45,10 +51,18 @@ function About() {
             </p>
           </div>
           <div className="image">
-            <img src="../image_about/magasin2.jpg" className="rainbow" id='magasin' />
+            <img
+              src="../image_about/magasin2.jpg"
+              className="rainbow"
+              id="magasin"
+            />
 
             {/* <img src="../image_about/magasin.jpg" /> */}
-            <img src="../image_about/magasin1.jpg" className="rainbow" id='magasin'/>
+            <img
+              src="../image_about/magasin1.jpg"
+              className="rainbow"
+              id="magasin"
+            />
           </div>
         </div>
       </div>

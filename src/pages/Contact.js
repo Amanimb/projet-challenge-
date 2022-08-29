@@ -1,10 +1,11 @@
 import React from "react";
+import Trax from "../component/Trax";
 import "../style/Contact.css";
 
 function Contact() {
   return (
-    <div>
-      <h1 className="pp">Nos coordonnées</h1>
+    <div className="nos-p">
+      <Trax title="Nos coordonnées" />
       <div className="contactez-nous">
         <div className="contact">
           <h3 className="title">
@@ -55,7 +56,7 @@ function Contact() {
             <label>Message</label>
             <br />
             <input type="texte" id="input_message" />
-            <br/>
+            <br />
             <button>Envoyer</button>
           </form>
         </div>

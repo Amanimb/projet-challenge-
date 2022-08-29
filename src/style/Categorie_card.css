@@ -22,7 +22,36 @@ margin-bottom :15px;
   
 }
 #im_trax{
+    
+    position: absolute;
+    top: 34px;
     display: flex;
     justify-content: flex-start;
     width: 100%;
+    height: 38%;
+    object-fit: cover;
+    /* position: relative; */
+
+}
+ #ff{
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px; 
+}
+#ti{
+  position: relative;
+}
+.txt{
+  line-height: 25px;
+}
+#r{
+    color: #ffaa07;
+}
+.lii a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.902);
+  padding: 3px; 
+  /* width: 170px; */
 }

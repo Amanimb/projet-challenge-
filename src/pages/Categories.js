@@ -1,7 +1,10 @@
 import React, { useState } from 'react'
 import List_categories from '../component/List_categories';
+import Trax from '../component/Trax';
 import '../style/Categorie_card.css'
 import '../style/list.css'
+
+
 
 function Categories() {
     const [Categories, setCategories] = useState([
@@ -10,6 +13,7 @@ function Categories() {
         name: "GROUPE DE FONTE LOURDE",
       },
       {
+    
         image: "../image_categorie/GROUPE DE CATERPİLLAR.jpg",
         name: "GROUPE DE CATERPİLLAR",
       },
@@ -47,12 +51,11 @@ function Categories() {
       },
     ]);
   return (
-    <div>
-      <div>
-  <img src='../trax.jpg' id='im_trax'/>
-        <h1>Nos produits</h1>
+    <div className="nos-p">
+      <Trax title="Nos Produit" />
+      <div className="list">
+        <List_categories categories={Categories} />
       </div>
-      <List_categories categories={Categories} />
     </div>
   );
 }
